@@ -60,6 +60,9 @@
 ![ManualReserver画面1](image/1.manualReserver.png)
 ![ManualReserver画面2](image/2.manualReserver.png)
 
+#### 実際の動作例
+[![ManualReserver動作デモ](https://img.youtube.com/vi/cCScktZyGhc/maxresdefault.jpg)](https://www.youtube.com/watch?v=cCScktZyGhc)
+*クリックで動画を再生*
 ---
 
 ## 🚀 初期設定
@@ -157,6 +160,7 @@ venv\Scripts\activate     # Windows
 - [ ] パビリオンの空き枠情報をebii.net経由ではなく、 get関連フォルダのシステムを用いて確認する。
 - [ ] POSTリクエストの並列化（Deno/TypeScriptで高速非同期処理）
 - [ ] adjustments.pyはその日の最後のパビリオン時間をもとに補正しているため、時間帯によって補正値が異なる場合に対処できない→最初の時間で補正させる。パラメータエラーが起きたらadjutments.pyが自動で走るようにする
+
 
 
 
